@@ -1,0 +1,23 @@
+[project]
+name = "geni-ai-skd-intro"
+version = "0.1.0"
+description = "Google Gemini API development workspace and examples using modern google-genai SDK"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai[aiohttp]>=2.30.1",
+    "httpx>=0.28.1",
+    "pillow>=13.0.0",
+    "pydantic>=2.14.1",
+    "python-dotenv>=1.2.4",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+    "ruff>=0.17.1",
+]
+
+[tool.uv]
+package = false

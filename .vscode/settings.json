@@ -3,6 +3,10 @@
     "python.terminal.activateEnvironment": true,
     "terminal.integrated.env.linux": {
         "PATH": "${workspaceFolder}/.venv/bin:${env:PATH}",
-        "VIRTUAL_ENV": "${workspaceFolder}/.venv"
-    }
+        "VIRTUAL_ENV": "${workspaceFolder}/.venv",
+    },
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.parameterHints.enabled": false
 }
